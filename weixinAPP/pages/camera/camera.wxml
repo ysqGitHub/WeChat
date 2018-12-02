@@ -1,0 +1,7 @@
+<!--pages/camera/camera.wxml-->
+<view id='view1' style='display:flex;flex-direction:space-between'>
+<button id='b1' size='mini'   bindtap="chooseimage">获取图片</button>
+<button id='b2' size='mini' bindtap='savePhone'>保存</button>
+</view>
+
+<image src="{{tempFilePaths }}" catchTap="chooseImageTap" mode="aspectFit" style="width: 100%; height: 440px" />

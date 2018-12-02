@@ -1,0 +1,2 @@
+<!--pages/video/video.wxml-->
+ <video custom-cache='{{false}}' id="myVideo" src="{{link}}" autoplay='{{true}}' page-gesture='{{true}}' loop='{{true}}'></video>

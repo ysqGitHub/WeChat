@@ -1,0 +1,89 @@
+<!--pages/videolb/videolb.wxml-->
+<view class="appointment">
+  <view class="app-moduler">
+
+    <view bindtap='tiaozhuan1' class="mod-item">
+    <view class="mod-img">
+        <image src="../../imgs/zhige.png" class="mod-image"></image>
+      </view>
+      <view class="mod-title">      
+         <text>不战而屈人之兵-止戈</text>  
+      </view>     
+    </view>  
+
+    
+    <view bindtap='tiaozhuan2' class="mod-item">
+    <view class="mod-img">
+        <image src="../../imgs/guofangbu.png" class="mod-image"></image>
+      </view>
+      <view class="mod-title">      
+         <text>国防部霸气回应</text>  
+      </view>     
+    </view>  
+    
+    <view  bindtap='tiaozhuan3' class="mod-item">
+    <view class="mod-img">
+        <image src="../../imgs/jiefangjun.png" class="mod-image"></image>
+      </view>
+      <view class="mod-title">      
+         <text>我叫中国人民解放军</text>  
+      </view>     
+    </view>  
+    
+    <view bindtap='tiaozhuan4' class="mod-item">
+    <view class="mod-img">
+        <image src="../../imgs/raodao.png" class="mod-image"></image>
+      </view>
+      <view class="mod-title">      
+         <text>战机绕岛飞行</text>  
+      </view>     
+    </view>  
+
+      <view bindtap='tiaozhuan5' class="mod-item">
+    <view class="mod-img">
+        <image src="../../imgs/keji.png" class="mod-image"></image>
+      </view>
+      <view class="mod-title">      
+         <text>科技兴军</text>  
+      </view>     
+    </view>  
+
+  <view bindtap='tiaozhuan6' class="mod-item">
+    <view class="mod-img">
+        <image src="../../imgs/kongjiangbing.png" class="mod-image"></image>
+      </view>
+      <view class="mod-title">      
+         <text>空降兵-永远吃到“鸡”</text>  
+      </view>     
+    </view>  
+
+<view bindtap='tiaozhuan7' class="mod-item">
+    <view class="mod-img">
+        <image src="../../imgs/meiguo.png" class="mod-image"></image>
+      </view>
+      <view class="mod-title">      
+         <text>美国代表在联合国拍桌子</text>  
+      </view>     
+    </view>  
+
+    <view bindtap='tiaozhuan8' class="mod-item">
+    <view class="mod-img">
+        <image src="../../imgs/sade.png" class="mod-image"></image>
+      </view>
+      <view class="mod-title">      
+         <text>韩国执意部署萨德</text>  
+      </view>     
+    </view>  
+
+    <view bindtap='tiaozhuan9' class="mod-item">
+    <view class="mod-img">
+        <image src="../../imgs/zhurihe.png" class="mod-image"></image>
+      </view>
+      <view class="mod-title">      
+         <text>沙场点兵-聚焦朱日和</text>  
+      </view>     
+    </view>  
+
+
+   </view>
+</view>

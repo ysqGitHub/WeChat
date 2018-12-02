@@ -1,0 +1,4 @@
+/* pages/video/video.wxss */
+#myVideo{
+  width: 750rpx;
+}

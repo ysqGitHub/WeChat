@@ -1,0 +1,35 @@
+<!--pages/whether/whether.wxml-->
+<image src="../../imgs/beijing.png" class="bg"></image>
+<view class="container">
+ 
+  <view class="nowWeather">
+    <view class="city w">{{city}}</view>
+    <view class="w b  f50">{{wendu}}</view>
+    <view class="w b  f50">{{pm}} | PM2.5 </view>
+    <view class="road w">{{riqi}}</view>
+     <view class="road w">
+     
+  <text wx:if="{{pm>100}}" class='red b'>温馨提醒：空气中PM2.5达到{{pm}}。空气质量差。尽量少出门，出门请戴口罩。由于天气冷暖多变，要防这些易发病 感冒.秋季忽热忽凉，是伤风感冒的多发季节。注意随天气变化及时增减衣服。</text>
+  <text wx:else class='red b'>温馨提醒：空气中PM2.5达到{{pm}}。由于天气冷暖多变，要防这些易发病 感冒.秋季忽热忽凉，是伤风感冒的多发季节。注意随天气变化及时增减衣服。</text>
+  </view>
+  </view>
+
+  <view class="weahterDetail">
+     <view class="l"></view>
+    <view class="">
+      <view class="blue center">风力</view>
+      <view class="blue b center ">{{fengli}}</view>
+    </view>
+    <view class="l"></view>
+    <view class="">
+      <view class="blue center">天气状况</view>
+      <view class="blue b center ">{{zhuangkuang}}</view>
+    </view>
+    <view class="l"></view>
+    <view class="">
+      <view class="blue center">体感温度</view>
+      <view class="blue b center ">{{wendu}}</view>
+    </view>
+  </view> 
+</view>
+

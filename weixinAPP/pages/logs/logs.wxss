@@ -1,0 +1,31 @@
+/* pages/logs/logs.wxss */
+.form1 {
+  height:4700px;
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+  background:#f0ffff;
+}
+.title{
+  margin: 0 auto;
+}
+.log-item {
+  margin: 10rpx;
+}
+input{
+  border:1px solid #ccc;
+  padding: 3px;
+}
+.section{
+  margin: 30px;
+}
+.sub{
+  margin-top: 10px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.content{
+  width: 220px;
+  height: 300rpx;
+}

@@ -1,0 +1,12 @@
+<!--pages/news/news.wxml-->
+<view class='viewStyle center'>{{title}}</view>
+<text>\n</text>
+<view class='center color size'>
+ <text decode="{{true}}">{{time}}&emsp;来源：{{source}}</text>
+</view>
+<text>\n</text>
+<view class='sizeContent'>
+<text decode="{{true}}">&emsp;&emsp;{{content}}</text>
+</view>
+
+

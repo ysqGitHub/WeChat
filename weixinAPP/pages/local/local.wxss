@@ -1,0 +1,13 @@
+/* pages/local/local.wxss */
+
+page{
+  height: 100%;
+}
+#text1{
+  font-size: 13px;
+  color: slategrey
+  
+}
+#text2{
+  color: #696969
+}

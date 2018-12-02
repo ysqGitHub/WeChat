@@ -1,0 +1,4 @@
+/* pages/camera/camera.wxss */
+#view1{
+  height: 25px
+}

@@ -1,0 +1,5 @@
+<!--pages/local/local.wxml-->
+<text id='text1'>当前所在的位置：</text><text id='text2'>{{province}} {{city}} {{district}}</text>
+<view class="" hover-class="none" hover-stop-propagation="false" style="width: 100%; height: 100%;">
+<map subkey='2UKBZ-DZ3C3-KFF3S-YBIJS-Z3RW3-MJBPJ' style='width:100%; height:100%;' bindtap='bindKeyInput' longitude='{{longitude}}' latitude='{{latitude}}' show-location='true'></map>
+</view>

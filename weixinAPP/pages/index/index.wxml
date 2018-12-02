@@ -1,0 +1,45 @@
+<!--index.wxml-->
+
+<view class="" hover-class="none" hover-stop-propagation="false" style="width: 100%;">
+<swiper indicator-dots='{{true}}' autoplay='{{true}}' id='imgMy'>
+<swiper-item id='juzhong'><image id='imgjuzhong' src='/imgs/1.jpg'></image><text>信息技术</text></swiper-item>
+<swiper-item id='juzhong'><image id='imgjuzhong' src='/imgs/2.jpg'></image><text>信息医疗</text></swiper-item>
+<swiper-item id='juzhong'><image id='imgjuzhong' src='/imgs/3.jpg'></image><text>计算机安全</text></swiper-item>
+<swiper-item id='juzhong'><image id='imgjuzhong' src='/imgs/4.jpg'></image><text>未来发展</text></swiper-item>
+<swiper-item id='juzhong'><image id='imgjuzhong' src='/imgs/5.jpg'></image><text>中美博弈</text></swiper-item>
+<swiper-item id='juzhong'><image id='imgjuzhong' src='/imgs/6.jpg'></image><text>信息</text></swiper-item>
+</swiper>
+</view>
+
+<text>\n</text>
+<swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="3000">
+<block wx:for="{{msgList}}">
+<navigator url="/pages/index/index?title={{item.url}}" open-type="navigate">
+<swiper-item>
+<view class="swiper_item" bindtap='tiaozhuan' data-title='{{item.title}}' data-source='{{item.source}}' data-content='{{item.content}}' >{{item.title}}</view>
+</swiper-item>
+</navigator>
+</block>
+</swiper>
+
+<text>\n</text>
+<swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="3500">
+<block wx:for="{{msgList2}}">
+<swiper-item>
+<view class="swiper_item">{{item.title}}</view>
+</swiper-item>
+</block>
+</swiper>
+
+<text>\n</text>
+<swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="4000">
+<block wx:for="{{msgList3}}">
+<swiper-item>
+<view class="swiper_item">{{item.title}}</view>
+</swiper-item>
+</block>
+</swiper>
+
+<text>\n</text>
+<image src='../../imgs/junshi.png' bindtap='dianji' class='tupaindaxiao'/>
+

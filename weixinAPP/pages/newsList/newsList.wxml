@@ -1,0 +1,22 @@
+<!--pages/newsList/newsList.wxml-->
+  <view class="headLine box box-tb">
+    <view class="headLineWra box box-lr"  wx:for="{{newsList}}"  wx:key="id">
+      <view class="headLineContent box box-tb box-align-center box-pack-around">
+        <view bindtap="jumpDetails" class="headLineTitle" data-title="{{item.bt}}" data-time='{{item.sj}}' data-source='{{item.ly}}' data-content='{{item.nr}}' >
+          {{item.bt}}
+        </view>
+        <view class="headLineInfor  box box-lr box-pack-between">
+          <view class="headLineSource">
+            日期: {{item.sj}}
+          </view>
+          <view class="headLineSource">
+            来源：{{item.ly}}
+          </view>
+        </view>
+      </view>
+      <view class="arrowsBox box box-tb box-pack-center" >
+      <image wx:if="{{item.tp==null}}" src="{{lujing}}" bindtap='addImage'/>
+        <image wx:else src="{{item.tp}}" />
+      </view>
+    </view>
+  </view>
